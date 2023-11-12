@@ -1,0 +1,39 @@
+#root:first-child::before {
+  content: "";
+  height: 50px;
+  display: block;
+}
+
+#time-controls {
+  display: flex;
+  justify-content: center;
+}
+
+#time-controls-divider {
+  width: 10px;
+}
+
+.time-control {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 25%;
+  width: 100px;
+}
+
+.time-control-label {
+  margin-top: 0;
+}
+
+.time-control-length {
+  margin: 0 10px;
+}
+
+.time-control-button {
+  width: 30px;
+}
+
+#timer {
+  text-align: center;
+}
